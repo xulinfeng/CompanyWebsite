@@ -1,0 +1,292 @@
+.flash{
+	position: relative;
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+	overflow: hidden;
+	background: #eaeaea;
+	z-index: 4;
+
+}
+
+/*图片样式*/
+.flash_img{
+	position: relative;
+	width: 100%;
+	height: 461px;
+	border-bottom: 1px solid #fff;
+}
+.flash_img li{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+	height: 461px;
+	z-index: 5;
+}
+
+
+/*上一张 下一张*/
+.flash_arrow a{
+	position: absolute;
+	top: 160px;
+	width: 113px;
+	height: 113px;
+	background: #000 url(../images/flash_arrow.png) no-repeat;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	overflow: hidden;
+	text-indent: -99em;
+	z-index: 55;
+}
+.flash_arrow a.flash_arrow_left{
+	left: 0;
+}
+.flash_arrow a.flash_arrow_right{;
+	right: 0;
+	background-position: 0 -113px; 
+}
+
+
+/*切换按钮 样式*/
+.flash_btn{
+	width: 330px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+.flash_btn span{
+	float: left;
+	margin: 17px 2px 0 0;
+	width: 108px;
+	height: 9px;
+	background: #b3b3b3;	
+	overflow: hidden;
+	text-indent: -99em;
+}
+.flash_btn span.flash_btnCur{
+	background: #006dc7;
+}
+
+/*标签切换*/
+.ball_div{
+	width: 100%;
+	min-width: 1000px;
+	height: 383px;
+	background: #fff;
+	border-bottom: 1px solid #ebebeb;
+}
+.ball{
+	height: 383px;
+	overflow: hidden;
+}
+.ball ul{
+	padding-top: 110px;
+	width: 150%;
+	height: 273px;
+/*	overflow: hidden;*/
+}
+.ball li{
+	float: left;
+	width: 167px;
+	height: 160px;
+	background: url(../images/ball_icon.png) no-repeat 0 0;
+	overflow: hidden;
+}
+
+.ball li.ball_li0{
+	background-position: 2px 0;
+}
+.ball li.ball_li1{
+	background-position: 2px -160px;
+}
+.ball li.ball_li2{
+	background-position: 2px -320px;
+}
+.ball li.ball_li3{
+	background-position: 2px -480px;
+}
+
+.ball li.ball_li0_cur{
+	background-position-y: -640px;
+}
+.ball li.ball_li1_cur{
+	background-position-y: -800px;
+}
+.ball li.ball_li2_cur{
+	background-position-y: -960px;
+}
+.ball li.ball_li3_cur{
+	background-position-y: -1120px;
+}
+
+
+.ball li h3{
+	margin: 15px 0 0 188px;
+	width: 300px;
+	height: 29px;
+	line-height: 24px;
+	font-size: 24px;
+}
+.ball li h3 a{
+	color: #1275b9;
+}
+.ball li h3 a:hover{
+	color: #44464f;
+}
+.ball li p{
+	margin-left: 188px;
+	width: 288px;
+	height: 96px;
+	line-height: 24px;
+	color: #44464f;
+}
+
+
+/*关于我们about*/
+
+.about{
+	position: relative;
+	z-index: 5;
+	padding-top: 51px;
+	height: 450px;
+}
+
+.about_tit,
+.friend_tit{
+	width: 119px;
+	height: 42px;
+	font-size: 14px;
+	color: #494949;
+	line-height: 30px;
+	text-align: right;
+	background: url(../images/about_btn.png) no-repeat 0 0;
+}
+
+
+.about_left,
+.about_right{
+	position: absolute;
+	top: 124px;
+	width: 491px;
+	height: 241px;
+	border-radius: 6px;
+	overflow: hidden;
+	z-index: 5;
+}
+.about_left{
+	left: 1px;
+}
+.about_left p{
+	position: absolute;
+	left: 0;
+	bottom: -241px;
+	padding: 24px 16px 0 25px;
+	width: 450px;
+	height: 217px;
+	line-height:24px; 
+	text-indent: 25px;
+	color: #fff;
+	background: #0078dd; 
+	opacity: 0.77;
+	filter: alpha(opacity=77);
+}
+.about_left i,
+.about_right i{
+	position: absolute\9;
+	top: 0\9;
+	left: 0\9;
+	width: 491px\9;
+	height: 241px\9;
+	background: url(../images/opacity_bg.png) no-repeat\9;
+}
+
+.about_right{
+	right: 0;
+	background: #44464f;
+}
+
+.about_right li{
+	width: 491px;
+	height: 241px;
+}
+.about_right li img{
+	display: block;
+}
+.about_right li p{
+	width: 388px;
+	height: 120px;
+	margin-left: 94px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #fff;
+	overflow: hidden;
+}
+
+.btn_btn{
+	position: absolute;
+	bottom: 89px;
+	right: 0;
+	width: 78px;
+	height: 31px;
+
+}
+.btn_btn li{
+	float: left;
+	padding-left: 8px;
+	width: 31px;
+	height: 31px;
+	display: inline;
+}
+.btn_btn li a{
+	display: block;
+	width: 31px;
+	height: 31px;
+	background: url(../images/about_btn.png) no-repeat;
+	overflow: hidden;
+	text-indent: -99em;
+}
+.btn_btn li.btn_btnLeft a{
+	background-position: 0 -134px;
+}
+.btn_btn li.btn_btnLeft a:hover{
+	background-position: 0px -177px;
+}
+
+.btn_btn li.btn_btnRight a{
+	background-position: -39px -177px;
+}
+.btn_btn li.btn_btnRight a:hover{
+	background-position: -39px -134px;
+}
+
+/*合作伙伴*/
+.friend{
+	height: 318px;
+	border-top: 1px solid #ebebeb;
+	background: #fff;
+}
+.friend_main{
+	position: relative;
+	padding-top: 40px;
+	height: 278px;
+	overflow: hidden;
+}
+.friend_tit{
+	width: 135px;
+	background-position: 0 -63px;
+}
+.friend_main_img{
+	margin-top: 44px;
+	width: 1000%;
+	height: 132px;
+}
+.friend_main_img li{
+	float: left;
+	width: 193px;
+	height: 132px;
+	margin-right: 8px;
+}
+.friend_main .btn_btn{
+	bottom: 25px;
+}

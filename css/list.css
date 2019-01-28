@@ -1,0 +1,71 @@
+.list_top{
+	width: 100%;
+	min-width: 1000px;
+	height: 329px;
+	background: #eaeaea url(../images/list_img.jpg) no-repeat center top;
+}
+
+.list_nav{
+	padding-top: 276px;
+}
+.list_nav li{
+	float: left;
+	width: 108px;
+	height: 36px;
+	margin-right: 4px;
+}
+.list_nav li a{
+	display: block;
+	width: 84px;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 24px;
+	font-size: 14px;
+	color: #222222;
+}
+.list_nav li.list_nav_liCur a,
+.list_nav li a:hover{
+	color: #0771ba;
+	background: url(../images/list_bg.png) no-repeat 0 0;
+}
+
+.list_main{
+	padding-top: 15px;
+	padding-bottom: 104px;
+	overflow: hidden;
+}
+.list_main ul{
+	width: 110%;
+	overflow: hidden;
+}
+
+.list_main li{
+	float: left;
+	width: 223px;
+	height: 164px;
+	padding: 6px 0 0 5px;
+	background: url(../images/list_bg.png) 0 -38px;
+	margin: 48px 27px 0 0;
+	display: inline;
+}
+.list_main li a{
+	display: block;
+	width: 217px;
+	height: 131px;
+	
+}
+.list_main li span{
+	display: block;
+	padding: 13px 0 0 15px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.list_main li span a{
+	color: #222222;
+}
+
+.list_main li span a:hover{
+	color: #4aa4d9;
+}
