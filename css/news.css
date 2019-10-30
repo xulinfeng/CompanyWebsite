@@ -1,0 +1,22 @@
+
+.news_main{
+	float: left;
+	width: 740px;
+	margin-left: 7px;
+	padding: 23px 0 20px 37px;
+	background: url(../images/detail_bg.png) no-repeat 0 0;
+	color: #4c4c4c;
+
+}
+.news_main h4{
+	padding-top: 36px;
+	font-size: 18px;
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.news_main p{
+	line-height: 24px;
+	margin-bottom: 1em;
+}
