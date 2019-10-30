@@ -1,4 +1,25 @@
 
+.news_Top{
+	width: 100%;
+	min-width: 1000px;
+	height: 293px;
+	border-bottom: 1px solid #c4c4c4;
+	background: #e4e4e4 url(../images/detail_banner.jpg) no-repeat center top;
+}
+.news_pos{
+	padding: 271px 28px 0 0;
+	width: 972px;
+	text-align: left;
+	color: #7f7f7f;
+}
+.news_pos a{
+	color: #7f7f7f;
+}
+.news_pos em,
+.news_pos a:hover{
+	color: #006ba7;
+}
+
 .news_main{
 	float: left;
 	width: 740px;
